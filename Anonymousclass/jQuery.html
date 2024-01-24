@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+    <h1>This is first para</h1>
+    <h2>This is second para</h2>
+    <p>First para</p>
+
+    <script>
+        $("document").ready(function(){
+            $("h1").click(function(){
+                $("h3").html("Welcome");
+                $("h2").css("color","red");
+            });
+        });
+    </script>
+</body>
+</html>
